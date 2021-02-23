@@ -1,0 +1,1 @@
+# 6. *Write a function lensort() to sort a list of strings based on length.
