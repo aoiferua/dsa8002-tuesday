@@ -1,18 +1,14 @@
 # 3. Write a function cumulative_product() to compute cumulative product of a list of numbers,
 
-print('Please enter as many numbers as you want... enter done when finished')
 lists = []                        # Initialize array
-while True:
-    number = 0
-    input_number = input('Please enter a number: ')
-    if input_number == 'done':
-        break
+for i in range(5):
 
+    input_number = input('Please enter a number: ')
     try:
         number = int(input_number)
     except ValueError:
         print('Invalid input')
-        quit()
+        continue
 
     lists.append(int(input_number))
 
